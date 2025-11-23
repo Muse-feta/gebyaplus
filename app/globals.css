@@ -1,0 +1,281 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(1.0 0 0);
+  --foreground: #121113;
+  --card: oklch(1.0 0 0);
+  --card-foreground: #121113;
+  --popover: oklch(1.0 0 0);
+  --popover-foreground: #121113;
+  /* Updated primary colors to TikTok hot pink */
+  --primary: #ff0050;
+  --primary-foreground: oklch(1.0 0 0);
+  /* Updated secondary colors to TikTok cyan */
+  --secondary: #25f4ee;
+  --secondary-foreground: #000000;
+  --muted: oklch(0.967 0.0029 264.5419);
+  --muted-foreground: oklch(0.551 0.0234 264.3637);
+  --accent: oklch(0.9491 0 0);
+  --accent-foreground: #121113;
+  --destructive: oklch(0.6368 0.2078 25.3313);
+  --destructive-foreground: oklch(0.9851 0 0);
+  --border: oklch(0.9276 0.0058 264.5313);
+  --input: oklch(0.9276 0.0058 264.5313);
+  --ring: #ff0050;
+  --chart-1: #ff0050;
+  --chart-2: #25f4ee;
+  --chart-3: #fe2c55;
+  --chart-4: #00f2ea;
+  --chart-5: #000000;
+  --sidebar: oklch(0.967 0.0029 264.5419);
+  --sidebar-foreground: #121113;
+  --sidebar-primary: #ff0050;
+  --sidebar-primary-foreground: oklch(1.0 0 0);
+  --sidebar-accent: oklch(1.0 0 0);
+  --sidebar-accent-foreground: #121113;
+  --sidebar-border: oklch(0.9276 0.0058 264.5313);
+  --sidebar-ring: #ff0050;
+  /* Added TikTok gradient colors */
+  --tiktok-pink: #ff0050;
+  --tiktok-cyan: #25f4ee;
+  --tiktok-pink-light: #fe2c55;
+  --tiktok-cyan-light: #00f2ea;
+  /* Updated all font families to use JetBrains Mono */
+  --font-sans: JetBrains Mono, ui-monospace, monospace;
+  --font-serif: JetBrains Mono, ui-monospace, monospace;
+  --font-mono: JetBrains Mono, ui-monospace, monospace;
+  --radius: 0.75rem;
+  --shadow-2xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
+  --shadow-xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
+  --shadow-sm: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow-md: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 2px 4px -1px hsl(0 0% 0% / 0.05);
+  --shadow-lg: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 4px 6px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 8px 10px -1px hsl(0 0% 0% / 0.05);
+  --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.13);
+  --tracking-normal: 0rem;
+  --spacing: 0.25rem;
+  --duration: 10s; /* Added duration for marquee animation */
+  --gap: 1rem; /* Added gap for marquee animation */
+}
+
+.dark {
+  --background: oklch(0.1797 0.0043 308.1928);
+  --foreground: oklch(0.8109 0 0);
+  --card: oklch(0.1822 0 0);
+  --card-foreground: oklch(0.8109 0 0);
+  --popover: oklch(0.1797 0.0043 308.1928);
+  --popover-foreground: oklch(0.8109 0 0);
+  /* Updated dark mode primary colors to TikTok pink */
+  --primary: #fe2c55;
+  --primary-foreground: oklch(0.1797 0.0043 308.1928);
+  /* Updated dark mode secondary colors to TikTok cyan */
+  --secondary: #00f2ea;
+  --secondary-foreground: oklch(0.1797 0.0043 308.1928);
+  --muted: oklch(0.252 0 0);
+  --muted-foreground: oklch(0.6268 0 0);
+  --accent: oklch(0.3211 0 0);
+  --accent-foreground: oklch(0.8109 0 0);
+  --destructive: oklch(0.594 0.0443 196.0233);
+  --destructive-foreground: oklch(0.1797 0.0043 308.1928);
+  --border: oklch(0.252 0 0);
+  --input: oklch(0.252 0 0);
+  --ring: #fe2c55;
+  --chart-1: #fe2c55;
+  --chart-2: #00f2ea;
+  --chart-3: #ff0050;
+  --chart-4: #25f4ee;
+  --chart-5: oklch(0.683 0 0);
+  --sidebar: oklch(0.1822 0 0);
+  --sidebar-foreground: oklch(0.8109 0 0);
+  --sidebar-primary: #fe2c55;
+  --sidebar-primary-foreground: oklch(0.1797 0.0043 308.1928);
+  --sidebar-accent: oklch(0.3211 0 0);
+  --sidebar-accent-foreground: oklch(0.8109 0 0);
+  --sidebar-border: oklch(0.252 0 0);
+  --sidebar-ring: #fe2c55;
+  /* Added TikTok gradient colors for dark mode */
+  --tiktok-pink: #fe2c55;
+  --tiktok-cyan: #00f2ea;
+  --tiktok-pink-light: #ff0050;
+  --tiktok-cyan-light: #25f4ee;
+  /* Updated all font families to use JetBrains Mono */
+  --font-sans: JetBrains Mono, ui-monospace, monospace;
+  --font-serif: JetBrains Mono, ui-monospace, monospace;
+  --font-mono: JetBrains Mono, ui-monospace, monospace;
+  --radius: 0.75rem;
+  --shadow-2xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
+  --shadow-xs: 0px 1px 4px 0px hsl(0 0% 0% / 0.03);
+  --shadow-sm: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 1px 2px -1px hsl(0 0% 0% / 0.05);
+  --shadow-md: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 2px 4px -1px hsl(0 0% 0% / 0.05);
+  --shadow-lg: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 4px 6px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.05), 0px 8px 10px -1px hsl(0 0% 0% / 0.05);
+  --shadow-2xl: 0px 1px 4px 0px hsl(0 0% 0% / 0.13);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+
+  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
+  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
+  --tracking-normal: var(--tracking-normal);
+  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
+  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
+  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+}
+
+/* Updated custom text selection styling with TikTok pink background */
+::selection {
+  background-color: #ff0050;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #ff0050;
+  color: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Explicitly set JetBrains Mono as the default font family */
+    font-family: JetBrains Mono, ui-monospace, monospace;
+  }
+}
+
+/* Added marquee animations for testimonials section */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+/* Added shiny text animation for new release promo section */
+@keyframes shiny-text {
+  0%,
+  90%,
+  100% {
+    background-position: calc(-100px) 0;
+  }
+  30%,
+  60% {
+    background-position: calc(100% + 100px) 0;
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) linear infinite;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shiny-text {
+  animation: shiny-text 3s ease-in-out infinite;
+}
+
+/* TikTok solid color utilities */
+.bg-tiktok-pink {
+  background-color: #ff0050;
+}
+
+.bg-tiktok-cyan {
+  background-color: #25f4ee;
+}
+
+.bg-tiktok-pink-light {
+  background-color: #fe2c55;
+}
+
+.bg-tiktok-cyan-light {
+  background-color: #00f2ea;
+}
+
+.text-tiktok-pink {
+  color: #ff0050;
+}
+
+.text-tiktok-cyan {
+  color: #25f4ee;
+}
+
+.border-tiktok-pink {
+  border-color: #ff0050;
+}
+
+.border-tiktok-cyan {
+  border-color: #25f4ee;
+}
