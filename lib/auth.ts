@@ -1,9 +1,10 @@
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
-import {PrismaClient} from "./generated/prisma"
+// import {PrismaClient} from "./generated/prisma"
+import { PrismaClient } from "./generated/prisma";
 import { nextCookies} from "better-auth/next-js"
 
-const prisma = new PrismaClient
+const prisma = new PrismaClient();
 export const auth = betterAuth({
   database: prismaAdapter(prisma, {
     provider: "postgresql",
@@ -12,12 +13,10 @@ export const auth = betterAuth({
     enabled: true,
   },
   socialProviders: {
-    tiktok: {
-      clientSecret: process.env.TIKTOK_CLIENT_SECRET as string,
-      clientKey: process.env.TIKTOK_CLIENT_ID as string,
-      scope: ["user.info.basic", "user.info.stats", "video.list"],
-      disableDefaultScope: true,
-    },
+     google: { 
+            clientId: process.env.GOOGLE_CLIENT_ID as string, 
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET as string, 
+        },
   },
   plugins: [nextCookies()],
 });

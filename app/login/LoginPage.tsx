@@ -31,10 +31,10 @@ export default function LoginPage() {
     }
   };
 
-  const handleTiktokSignin = async () =>{
+  const handleSocialSignin = async () =>{
     setIsLoading(true);
     try {
-      await signInSocial("tiktok");
+      await signInSocial("google");
     } catch (error) {
       console.log(error)
     }finally{
@@ -186,7 +186,7 @@ export default function LoginPage() {
 
          <div className="mt-6 flex justify-center">
                      <Button
-                       // onClick={handleTiktokSignIn}
+                       onClick={handleSocialSignin}
                        variant="outline"
                        className="w-full bg-zinc-900/50 border-zinc-800 text-zinc-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 group cursor-pointer"
                      >
