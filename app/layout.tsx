@@ -13,9 +13,9 @@ const jetBrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "EngageX - Creator Collaboration & Insights Platform for Ethiopia",
+  title: "Gebya+ — Create Your Store. Sell Anywhere",
   description:
-    "Empowering Ethiopian TikTok creators with tools to manage collaborations, track performance insights, and grow authentic engagement with audiences.",
+    "Gebya+ lets any Ethiopian seller create a personal online store, list products, and accept TeleBirr payments — all in minutes.",
 };
 
 

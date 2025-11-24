@@ -13,31 +13,32 @@ export function FAQSection() {
 
 const faqs = [
   {
-    question: "How does EngageX support creators?",
+    question: "How does Gebya+ support sellers?",
     answer:
-      "EngageX helps creators track engagement on TikTok — including views, likes, shares, and comments. This makes it easy to showcase performance and grow an audience.",
+      "Gebya+ lets sellers create their own online store, list products, and accept TeleBirr payments. It makes selling simple and managing your store easy.",
   },
   {
-    question: "Is EngageX only for Ethiopian creators?",
+    question: "Is Gebya+ only for Ethiopian sellers?",
     answer:
-      "Yes! EngageX is designed for the Ethiopian market. We understand local culture and trends, making it simple for creators to expand their reach and share their content.",
+      "Yes! Gebya+ is designed specifically for Ethiopian sellers. We understand local payment methods and shopping habits, making it easy to sell online.",
   },
   {
-    question: "How do creators join a challenge?",
+    question: "How do I add my products?",
     answer:
-      "Creators simply join a challenge, create content using the hashtag, and EngageX tracks engagement automatically to highlight performance.",
+      "Simply create a store, add your product details, images, and prices. Your products will be ready for customers to browse and buy in minutes.",
   },
   {
-    question: "What makes EngageX different?",
+    question: "What makes Gebya+ different?",
     answer:
-      "We focus on transparency and clarity. Creators can see real-time stats, track progress, and share verified results easily — no hidden steps, just clear insights.",
+      "Gebya+ focuses on simplicity and accessibility. Sellers can set up a store quickly, manage products, and accept payments without needing technical skills.",
   },
   {
-    question: "How is creators’ performance tracked?",
+    question: "How are orders and payments managed?",
     answer:
-      "Creators’ engagement is monitored regularly, and performance insights are shared to help them understand their impact and growth over time.",
+      "All orders and TeleBirr payments are tracked in real time, so sellers can easily monitor transactions, manage stock, and fulfill orders efficiently.",
   },
 ];
+
 
 
 

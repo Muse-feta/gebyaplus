@@ -100,10 +100,10 @@ export default function SignupPage() {
               </div>
             </div>
           </Link>
-          <h1 className="text-3xl font-bold text-white mb-2">Join EngageX</h1>
+          <h1 className="text-3xl font-bold text-white mb-2">Join Gebya+</h1>
           <p className="text-zinc-400">
-            Join Ethiopia’s first creator challenge platform and showcase your
-            content.
+            Join Ethiopia’s first platform for sellers to create their online
+            store, list products, and start selling in minutes.
           </p>
         </div>
 
@@ -247,21 +247,33 @@ export default function SignupPage() {
 
           <div className="mt-6 flex justify-center">
             <Button
-              onClick={handleTikTokSignIn}
+              // onClick={handleTiktokSignIn}
               variant="outline"
-              className="w-full bg-zinc-900/50 border-zinc-800 text-zinc-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 group"
+              className="w-full bg-zinc-900/50 border-zinc-800 text-zinc-300 hover:bg-white hover:text-black hover:border-white transition-all duration-200 group cursor-pointer"
             >
               <svg
-                className="w-5 h-5 mr-2 text-zinc-300 group-hover:text-black transition-colors duration-200"
+                className="w-5 h-5 mr-2 group-hover:text-black transition-colors duration-200"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 48 48"
+                viewBox="0 0 533.5 544.3"
               >
                 <path
-                  fill="currentColor"
-                  d="M41 17.4c-2.1 1-4.5 1.6-7 1.8v11.2c0 7.3-5.9 13.2-13.2 13.2S7.6 37.7 7.6 30.4c0-5.9 3.9-11 9.3-12.7v7.5c-1.5.9-2.5 2.5-2.5 4.4 0 2.8 2.3 5 5.1 5s5.1-2.2 5.1-5V4h7.8c.4 2.8 1.9 5.3 4.2 7 1.3 1 2.8 1.6 4.4 2V17.4z"
+                  fill="#4285F4"
+                  d="M533.5 278.4c0-17.9-1.6-35.2-4.7-51.9H272v98.2h146.9c-6.3 33.9-25.4 62.7-54 82l87.1 67c50.8-46.9 81.5-116 81.5-195.3z"
+                />
+                <path
+                  fill="#34A853"
+                  d="M272 544.3c73.2 0 134.6-24.3 179.5-66.3l-87.1-67c-24.2 16.2-55 25.7-92.4 25.7-71 0-131-47.9-152.5-112.4l-89 68.7C57.1 479.5 157.1 544.3 272 544.3z"
+                />
+                <path
+                  fill="#FBBC05"
+                  d="M119.5 330c-6.7-19.9-10.5-41.2-10.5-63 0-21.8 3.8-43.1 10.5-63l-89-68.7C9 188.6 0 231.3 0 267c0 35.7 9 78.4 30.5 138.7l89-68.7z"
+                />
+                <path
+                  fill="#EA4335"
+                  d="M272 107.7c38.9 0 73.7 13.4 101.2 39.6l76.1-76.1C406.6 24.1 345.2 0 272 0 157.1 0 57.1 64.8 30.5 166.6l89 68.7C141 155.6 201 107.7 272 107.7z"
                 />
               </svg>
-              Continue with TikTok
+              Continue with Google
             </Button>
           </div>
         </motion.div>

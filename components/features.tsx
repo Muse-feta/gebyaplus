@@ -63,13 +63,13 @@ export default function Features() {
             geist.className
           )}
         >
-          How EngageX Works
+          How Gebya+ Works
         </h2>
         <FollowerPointerCard
           title={
             <div className="flex items-center gap-2">
               <span>🎯</span>
-              <span>Performance-Focused Insights</span>
+              <span>Boost Your Sales</span>
             </div>
           }
         >
@@ -95,13 +95,12 @@ export default function Features() {
               >
                 <div className="flex flex-col gap-4">
                   <h3 className="text-2xl leading-none font-semibold tracking-tight">
-                    Configure Campaign Parameters
+                    Configure Your Products & Sales
                   </h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Creators set their own challenge goals, and EngageX
-                      provides real-time progress updates and showcases their
-                      standing.
+                      Track your sales goals and grow your Gebya+ store in real
+                      time.
                     </p>
                   </div>
                 </div>
@@ -197,7 +196,7 @@ export default function Features() {
                       <div className="flex items-center gap-8">
                         {/* Left Column */}
                         <div className="flex flex-col gap-3">
-                          {["Allocation", "Hashtag", "Guidelines"].map(
+                          {["Inventory", "Tags", "Guidelines"].map(
                             (item, index) => (
                               <motion.div
                                 key={`left-${index}`}
@@ -260,34 +259,36 @@ export default function Features() {
 
                         {/* Right Column */}
                         <div className="flex flex-col gap-3">
-                          {["Views", "Likes", "Shares"].map((item, index) => (
-                            <motion.div
-                              key={`right-${index}`}
-                              className="bg-white rounded px-3 py-2 flex items-center gap-2 text-black text-sm font-medium shadow-sm"
-                              initial={{ opacity: 1, x: 0 }}
-                              animate={
-                                isCliHovering ? { x: [20, 0] } : { x: 0 }
-                              }
-                              transition={{
-                                duration: 0.5,
-                                delay: index * 0.1,
-                              }}
-                              whileHover={{ scale: 1.05 }}
-                            >
-                              <div className="w-4 h-4 flex items-center justify-center">
-                                {index === 0 && (
-                                  <span className="text-xs">👁️</span>
-                                )}
-                                {index === 1 && (
-                                  <span className="text-xs">❤️</span>
-                                )}
-                                {index === 2 && (
-                                  <span className="text-xs">🔄</span>
-                                )}
-                              </div>
-                              {item}
-                            </motion.div>
-                          ))}
+                          {["Visits", "Orders", "Revenue"].map(
+                            (item, index) => (
+                              <motion.div
+                                key={`right-${index}`}
+                                className="bg-white rounded px-3 py-2 flex items-center gap-2 text-black text-sm font-medium shadow-sm"
+                                initial={{ opacity: 1, x: 0 }}
+                                animate={
+                                  isCliHovering ? { x: [20, 0] } : { x: 0 }
+                                }
+                                transition={{
+                                  duration: 0.5,
+                                  delay: index * 0.1,
+                                }}
+                                whileHover={{ scale: 1.05 }}
+                              >
+                                <div className="w-4 h-4 flex items-center justify-center">
+                                  {index === 0 && (
+                                    <span className="text-xs">👁️</span>
+                                  )}
+                                  {index === 1 && (
+                                    <span className="text-xs">❤️</span>
+                                  )}
+                                  {index === 2 && (
+                                    <span className="text-xs">🔄</span>
+                                  )}
+                                </div>
+                                {item}
+                              </motion.div>
+                            )
+                          )}
                         </div>
                       </div>
                     </div>
@@ -358,8 +359,8 @@ export default function Features() {
                   </h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      The first platform built for Ethiopian creators to track
-                      performance metrics and explore opportunities on TikTok.
+                      Create your personal online store, manage products, and
+                      sell directly to customers in Ethiopia.
                     </p>
                   </div>
                 </div>
@@ -424,9 +425,8 @@ export default function Features() {
                   </h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Monitor your content’s performance with up-to-date metrics
-                      including views, likes, shares, and comments for better
-                      insights.
+                      Monitor your products, see how many items are sold, and
+                      manage your store efficiently.
                     </p>
                   </div>
                 </div>
@@ -437,7 +437,7 @@ export default function Features() {
                         <div className="space-y-4">
                           <div className="flex items-center justify-between">
                             <span className="text-white/70 text-sm">
-                              Campaign: #EthiopianStyle
+                              Product Tag: #EthiopianStyle
                             </span>
                             <span className="text-green-400 text-sm">
                               ● Active
@@ -446,15 +446,15 @@ export default function Features() {
                           <div className="grid grid-cols-2 gap-4">
                             <div className="bg-white/10 rounded-lg p-3">
                               <div className="text-white/50 text-xs">
-                                Video Views
+                                Products
                               </div>
                               <div className="text-white text-lg font-bold">
-                                2.4M
+                                300+
                               </div>
                             </div>
                             <div className="bg-white/10 rounded-lg p-3">
                               <div className="text-white/50 text-xs">
-                                Engagement Rate
+                                Sales Rate
                               </div>
                               <div className="text-white text-lg font-bold">
                                 8.2%
@@ -462,7 +462,7 @@ export default function Features() {
                             </div>
                             <div className="bg-white/10 rounded-lg p-3">
                               <div className="text-white/50 text-xs">
-                                Active Creators
+                                Active Stores
                               </div>
                               <div className="text-white text-lg font-bold">
                                 156
@@ -470,7 +470,7 @@ export default function Features() {
                             </div>
                             <div className="bg-white/10 rounded-lg p-3">
                               <div className="text-white/50 text-xs">
-                                Content Performance Score
+                                Top-Selling Score
                               </div>
                               <div className="text-white text-lg font-bold text-blue-400">
                                 340
@@ -496,7 +496,7 @@ export default function Features() {
                               <path d="M3 6h18l-2 13H5L3 6z"></path>
                               <path d="m3 6 2-2h14l2 2"></path>
                             </svg>
-                            View Insights
+                            Store Visits
                           </button>
                         </div>
                       </div>
@@ -525,12 +525,11 @@ export default function Features() {
               >
                 <div className="flex flex-col gap-4">
                   <h3 className="text-2xl leading-none font-semibold tracking-tight">
-                    Transparent Performance Tracking
+                    Orders & Payments, Transparent
                   </h3>
                   <div className="text-md text-muted-foreground flex flex-col gap-2 text-sm">
                     <p className="max-w-[460px]">
-                      Creators can track their content performance with clear,
-                      real-time metrics and insights.
+                      Track every order and payment without confusion.
                     </p>
                   </div>
                 </div>

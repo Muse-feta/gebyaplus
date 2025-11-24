@@ -3,59 +3,60 @@ import { Marquee } from "@/components/magicui/marquee"
 const testimonials = [
   {
     name: "Meron Tadesse",
-    username: "@meroninfluencer",
-    body: "EngageX helps me track how my content performs. I can clearly see views, likes, and comments in one place, which motivates me to create more.",
+    username: "@meronshop",
+    body: "Gebya+ made it easy for me to create my own online store and list my products. I can now sell directly to customers without hassle.",
     img: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Dawit Marketing",
     username: "@dawitbrand",
-    body: "EngageX gives us clear insights on which creators are engaging audiences effectively, making collaboration simple and organized.",
+    body: "Gebya+ helps us manage our products and orders efficiently. Having our own store makes selling and connecting with customers much easier.",
     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Sara Bekele",
-    username: "@saracreates",
-    body: "As a creator in Addis Ababa, EngageX helps me showcase my creativity and track audience engagement. The platform is intuitive and supportive.",
+    username: "@sarastore",
+    body: "Creating a store with Gebya+ was simple and fast. I can showcase my products professionally and receive payments via TeleBirr seamlessly.",
     img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Ethiopian Coffee Co",
     username: "@ethcoffee",
-    body: "EngageX provides valuable insights on how audiences interact with our content. It’s simple, data-driven, and creator-focused.",
+    body: "Gebya+ allows us to present our products beautifully online and manage orders easily. It's simple, reliable, and seller-focused.",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Hanan Yusuf",
-    username: "@hanancreator",
-    body: "I appreciate how EngageX highlights real engagement metrics. Seeing my content’s reach encourages me to keep improving.",
+    username: "@hananshop",
+    body: "I love how Gebya+ lets me list products and receive TeleBirr payments instantly. Managing my store has never been easier.",
     img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Addis Fashion Week",
     username: "@addisfashion",
-    body: "With EngageX, collaborating with creators is straightforward. The real-time tracking helps us understand the impact of our campaigns.",
+    body: "With Gebya+, showcasing our products and handling orders is straightforward. It’s a perfect solution for Ethiopian sellers.",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Yonas Content",
-    username: "@yonascreates",
-    body: "EngageX provides transparency in content performance. I always know how my posts are doing, which helps me connect better with my audience.",
+    username: "@yonasshop",
+    body: "Gebya+ gives me full control of my store. I can see orders, manage products, and accept payments easily, all in one place.",
     img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Bole Tech Hub",
-    username: "@boletech",
-    body: "EngageX makes influencer collaborations data-driven and easy to manage. It’s great to see creators recognized for their engagement.",
+    username: "@boletechstore",
+    body: "Managing our online store with Gebya+ is easy and efficient. We can sell products, track orders, and reach customers quickly.",
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
   {
     name: "Liya Habesha",
-    username: "@liyahabesha",
-    body: "From Bahir Dar to a wider audience! EngageX helps me share Ethiopian culture while tracking how people engage with my content.",
+    username: "@liyashop",
+    body: "Gebya+ helped me turn my social selling into a real online store. Now customers can browse and buy my products easily from anywhere in Ethiopia.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
   },
 ];
+
 
 
 
@@ -107,13 +108,12 @@ export function TestimonialsSection() {
             </button>
           </div>
           <h2 className="from-foreground/60 via-foreground to-foreground/60 dark:from-muted-foreground/55 dark:via-foreground dark:to-muted-foreground/55 mt-5 bg-gradient-to-r bg-clip-text text-center text-4xl font-semibold tracking-tighter text-transparent md:text-[54px] md:leading-[60px] __className_bb4e88 relative z-10">
-            What creators & brands say
+            What Our Sellers Say
           </h2>
 
           <p className="mt-5 relative z-10 text-center text-lg text-zinc-500">
-            EngageX provides real-time insights and analytics, helping creators
-            and brands understand audience engagement and content performance
-            across platforms.
+            Gebya+ lets Ethiopian sellers create their own online store, list
+            products, and start selling in minutes.
           </p>
         </div>
 
@@ -154,7 +154,7 @@ export function TestimonialsSection() {
             >
               <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43V7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.43z" />
             </svg>
-            Join EngageX Community
+            Join Gebya+ Community
           </button>
         </div>
       </div>

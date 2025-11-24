@@ -44,12 +44,12 @@ export function StickyFooter() {
             <div>
               <div className="flex items-center justify-center sm:justify-start gap-2">
                 <div className="w-6 h-6 bg-white text-primary rounded flex items-center justify-center font-bold text-sm">
-                  E
+                  G
                 </div>
-                <div className="text-lg font-bold">EngageX</div>
+                <div className="text-lg font-bold">Gebya+</div>
               </div>
               <div className="text-xs opacity-90 mt-1">
-                Influencer Challenges Focused on Engagement in Ethiopia
+                Bring Your Products to Customers Across Ethiopia
               </div>
             </div>
 
@@ -77,7 +77,7 @@ export function StickyFooter() {
 
             {/* Copyright */}
             <div className="text-xs opacity-75">
-              © 2025 EngageX. Made in Ethiopia 🇪🇹
+              © 2025 Gebya+. Made in Ethiopia 🇪🇹
             </div>
           </div>
         </motion.div>

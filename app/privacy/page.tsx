@@ -11,9 +11,9 @@ export default function PrivacyPage() {
           <div className="flex justify-between items-center py-6">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-[#FF0050] rounded-lg flex items-center justify-center">
-                <div className="text-white font-bold text-sm">E</div>
+                <div className="text-white font-bold text-sm">G</div>
               </div>
-              <span className="text-xl font-bold">EngageX</span>
+              <span className="text-xl font-bold">Gebya+</span>
             </Link>
             <Link
               href="/"
@@ -46,12 +46,10 @@ export default function PrivacyPage() {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
-          <p className="text-zinc-400 mb-12">
-            Last updated: September 27, 2025
-          </p>
+          <p className="text-zinc-400 mb-12">Last updated: November 24, 2025</p>
 
           <div className="prose prose-invert max-w-none">
-            {/* TikTok Data Collection */}
+            {/* Data Collection */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -59,32 +57,27 @@ export default function PrivacyPage() {
               className="mb-12"
             >
               <h2 className="text-2xl font-semibold mb-6 text-[#FF0050]">
-                Information We Collect from TikTok
+                Information We Collect
               </h2>
               <div className="space-y-4 text-zinc-300 leading-relaxed">
                 <p>
-                  When you log in with TikTok, EngageX collects limited data
-                  strictly for analytics and insights, with your permission:
+                  Gebya+ collects only the information necessary to operate your
+                  online store, process TeleBirr payments, and display your
+                  products. This includes:
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>
-                    <strong>user.info.basic</strong>: Public profile info
-                    (username, display name, profile picture)
-                  </li>
-                  <li>
-                    <strong>user.info.stats</strong>: Account statistics such as
-                    followers, total likes, and engagement metrics
-                  </li>
-                  <li>
-                    <strong>video.list</strong>: Publicly available TikTok
-                    videos and metadata
-                  </li>
+                  <li>Seller account information (name, email, password)</li>
+                  <li>Product listings, prices, and inventory data</li>
+                  <li>Payment transaction details for TeleBirr</li>
+                  <li>Support and contact information</li>
                 </ul>
-                <p>Data is only accessed after you authorize TikTok login.</p>
+                <p>
+                  We do not sell or share your data for advertising purposes.
+                </p>
               </div>
             </motion.section>
 
-            {/* How We Use TikTok Data */}
+            {/* How We Use Data */}
             <motion.section
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -92,24 +85,16 @@ export default function PrivacyPage() {
               className="mb-12"
             >
               <h2 className="text-2xl font-semibold mb-6 text-[#FF0050]">
-                How We Use TikTok Data
+                How We Use Your Data
               </h2>
               <div className="space-y-4 text-zinc-300 leading-relaxed">
-                <p>The TikTok data we collect is used only for:</p>
+                <p>Your data is used solely for:</p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Secure TikTok login</li>
-                  <li>
-                    Displaying your TikTok profile and videos inside EngageX
-                  </li>
-                  <li>
-                    Generating insights and engagement summaries for creators
-                  </li>
-                  <li>Improving platform features based on analytics</li>
+                  <li>Creating and managing your online store</li>
+                  <li>Processing payments securely through TeleBirr</li>
+                  <li>Displaying your products to customers</li>
+                  <li>Providing customer support and communications</li>
                 </ul>
-                <p>
-                  We <strong>do not</strong> sell, rent, or share your TikTok
-                  data with advertisers or third parties.
-                </p>
               </div>
             </motion.section>
 
@@ -126,9 +111,9 @@ export default function PrivacyPage() {
               <div className="space-y-4 text-zinc-300 leading-relaxed">
                 <p>We follow strict practices to protect your data:</p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Secure authentication and token-based access</li>
+                  <li>Secure authentication and password protection</li>
                   <li>Encryption of sensitive data in transit</li>
-                  <li>Limited internal access to data</li>
+                  <li>Limited internal access to your data</li>
                   <li>Regular monitoring for security risks</li>
                 </ul>
               </div>
@@ -146,9 +131,10 @@ export default function PrivacyPage() {
               </h2>
               <div className="space-y-4 text-zinc-300 leading-relaxed">
                 <p>
-                  You may revoke TikTok access at any time through TikTok
-                  account settings. You can also request deletion of your data
-                  from EngageX by contacting us.
+                  You may request deletion or correction of your account and
+                  store data at any time by contacting us. You can also manage
+                  your account and payment preferences through your Gebya+
+                  account settings.
                 </p>
               </div>
             </motion.section>
@@ -164,7 +150,7 @@ export default function PrivacyPage() {
                 Contact Us
               </h2>
               <div className="space-y-4 text-zinc-300 leading-relaxed">
-                <p>Questions about privacy or TikTok data? Reach out to us:</p>
+                <p>Questions about privacy or your store? Reach out to us:</p>
                 <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                   <p>
                     <strong>Phone:</strong> +251 985 322 632
@@ -188,10 +174,10 @@ export default function PrivacyPage() {
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-[#FF0050] rounded-md flex items-center justify-center">
-                <div className="text-white font-bold text-xs">E</div>
+                <div className="text-white font-bold text-xs">G</div>
               </div>
               <span className="text-zinc-400">
-                © 2025 EngageX. All rights reserved.
+                © 2025 Gebya+. All rights reserved.
               </span>
             </div>
             <div className="flex space-x-6">

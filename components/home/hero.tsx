@@ -48,8 +48,8 @@ export default function Hero() {
                 id="main-title"
                 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl"
               >
-                Helping <strong>creators</strong> showcase{" "}
-                <em className="italic">their impact</em>
+                Helping <strong>sellers</strong> showcase{" "}
+                <em>their store and products</em>
               </h1>
             </motion.div>
 
@@ -60,8 +60,8 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mx-auto mb-12 max-w-2xl text-lg text-muted-foreground"
             >
-              Ethiopia's first platform for creators to showcase their content
-              and track engagement across TikTok, Instagram, and YouTube.
+              Ethiopia’s first platform where anyone can create a store, list
+              products, and sell instantly across social media.
             </motion.p>
 
             <motion.div
@@ -109,7 +109,7 @@ export default function Hero() {
                           <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                           <path d="M2 12h20"></path>
                         </svg>
-                        Get Started
+                        Open Your Store
                       </p>
                     </div>
                     <div className="text-muted-foreground group-hover:ml-4 ease-in-out transition-all size-[24px] flex items-center justify-center rounded-full border-2 border-border">

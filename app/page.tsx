@@ -91,9 +91,9 @@ export default function Home() {
         >
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-[#FF0050] to-[#25F4EE] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">E</span>
+              <span className="text-white font-bold text-sm">G</span>
             </div>
-            <span className="font-bold text-lg text-foreground">EngageX</span>
+            <span className="font-bold text-lg text-foreground">Gebya+</span>
           </div>
         </a>
 
