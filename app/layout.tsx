@@ -13,7 +13,7 @@ const jetBrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Gebya+ — Create Your Store. Sell Anywhere",
+  title: "Gebya Plus — Create Your Store. Sell Anywhere",
   description:
     "Gebya+ lets any Ethiopian seller create a personal online store, list products, and accept TeleBirr payments — all in minutes.",
 };
